@@ -40,6 +40,12 @@ hr {
   background-color: #343a40;
   box-shadow: 5px 5px 23px -2px #857d85; }
 
+#mbt {
+  display: none; }
+
+#mb1 {
+  display: inline-block; }
+
 #num {
   display: none; }
 
@@ -76,6 +82,10 @@ hr {
   height: 100%;
   background-position: center; }
 
+.carousel-item {
+  list-style-type: none;
+  text-align: center; }
+
 .btns, #sub3 {
   border: none;
   padding: 10px 25px;
@@ -83,6 +93,18 @@ hr {
   background-color: #6c757d;
   border-radius: 8px 2px 8px 2px;
   display: inline-block; }
+
+.car {
+  margin: 10px; }
+
+.cl {
+  margin: 20px;
+  background-color: #343a40;
+  color: #6c757d;
+  -webkit-box-shadow: 10px 10px 23px -5px #857d85;
+  -moz-box-shadow: 10px 10px 23px -5px #857d85;
+  box-shadow: 10px 10px 23px -5px #857d85;
+  border-radius: 8px 2px 8px 2px; }
 
 #log {
   margin-top: 10px;
@@ -252,6 +274,12 @@ footer {
 
   #alt {
     display: none; }
+
+  #mb1 {
+    display: none; }
+
+  #mbt {
+    display: inline-block; }
 
   #alt1 {
     display: block; }

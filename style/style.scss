@@ -54,6 +54,14 @@ hr {
   box-shadow: 5px 5px 23px -2px rgba(133,125,133,1);
 }
 
+#mbt {
+  display: none;
+}
+
+#mb1 {
+  display: inline-block;
+}
+
 #num {
   display: none;
 }
@@ -102,6 +110,10 @@ hr {
   background-position: center;
 }
 
+.carousel-item {
+  list-style-type: none;
+  text-align: center;
+}
 
 .btns, #sub3 {
   border: none;
@@ -110,6 +122,21 @@ hr {
   background-color: #6c757d;
   border-radius: 8px 2px 8px 2px;
   display: inline-block;
+}
+
+.car {
+  margin: 10px;
+}
+
+
+.cl {
+  margin: 20px;
+  background-color: #343a40;
+  color: #6c757d;
+  -webkit-box-shadow: $bshad;
+  -moz-box-shadow: $bshad;
+  box-shadow: $bshad;
+  border-radius: 8px 2px 8px 2px;
 }
 
 #log {
@@ -328,6 +355,13 @@ footer {
   }
   #alt {
     display: none;
+  }
+
+  #mb1 {
+    display: none;
+  }
+  #mbt {
+    display: inline-block;
   }
 
   #alt1 {
