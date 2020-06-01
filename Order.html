@@ -17,7 +17,7 @@
       <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">About</a>
@@ -65,24 +65,27 @@
     </nav>
     <div class="container">
       <div class="row">
-        <div class="col-md-12 col-centered cl">
-          <form class="" action="https://formspree.io/mvowkdyg" method="post">
-            Order: <br>
+        <div class="col-sm-12 col-centered cl">
+          <form class="order" action="https://formspree.io/mvowkdyg" method="post">
+
             <input type="text" name="name" placeholder="Name">
             <input type="text" name="" placeholder="Company Name">
             <input type="text" name="_replyto" placeholder="Email">
             <input type="text" name="" placeholder="Job # / po">
-            <input type="text" name="" placeholder='Date Required'>
+            <input type="text" name="" placeholder='Phone'>
             <input type="text" name="" placeholder='Date Required'><br>
+            <label for="order">Order type</label><br>
             <select class="" name="">
               <option value="">Will Call</option>
               <option value="">Quote</option>
               <option value="">Delivery</option>
-            </select>
+            </select><br>
+            <label for="order">Prefered contact method</label><br>
             <select class="" name="">
               <option value="">Email</option>
               <option value="">Phone</option>
-            </select>
+            </select><br>
+            <label for="order">Payment method</label><br>
             <select class="" name="">
               <option value="">Cash (Will-Call only)</option>
               <option value="">Check (Will-Call only)</option>
@@ -90,7 +93,7 @@
             </select>
             <br>
             Please include the quantity, items and any extra comments below <br>
-            <textarea id='mb1'name="name" rows="8" cols="50"></textarea>
+            <textarea id='mb1'name="name" rows="8" placeholder=""cols="50"></textarea>
             <textarea id='mbt' name="name" rows="8" cols="30"></textarea><br>
             <input type="submit" name="" value="Send">
           </form>
@@ -127,5 +130,4 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
-
 </html>
