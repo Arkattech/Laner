@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="https://unpkg.com/@popperjs/core@2">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/422646b9f5.js" crossorigin="anonymous"></script>
+    <script src="scripts/main.js"type="text/javascript"></script>
     <link rel="stylesheet" href="style/style.css">
     <title>Laner Electric Supply</title>
   </head>
@@ -71,31 +72,38 @@
             <input type="text" name="name" placeholder="Name">
             <input type="text" name="" placeholder="Company Name">
             <input type="text" name="_replyto" placeholder="Email">
-            <input type="text" name="" placeholder="Job # / po">
-            <input type="text" name="" placeholder='Phone'>
-            <input type="text" name="" placeholder='Date Required'><br>
+            <input type="text" name="Job/Po" placeholder="Job # / po">
+            <input type="text" name="Phone" placeholder='Phone'>
+            <input type="text" name="Date Required" placeholder='Date Required'><br>
             <label for="order">Order type</label><br>
-            <select class="" name="">
-              <option value="">Will Call</option>
-              <option value="">Quote</option>
-              <option value="">Delivery</option>
+            <select class="" name="Order Type" required>
+              <option value="Choose" selected='' disabled=''>Choose</option>
+              <option value="Will Call">Will Call</option>
+              <option value="Quote">Quote</option>
+              <option value="Delivery">Delivery</option>
             </select><br>
             <label for="order">Prefered contact method</label><br>
-            <select class="" name="">
-              <option value="">Email</option>
-              <option value="">Phone</option>
+            <select class="" name="Contact" required>
+              <option value="Choose" selected='' disabled=''>Choose</option>
+              <option value="Email">Email</option>
+              <option value="Phone">Phone</option>
             </select><br>
             <label for="order">Payment method</label><br>
-            <select class="" name="">
-              <option value="">Cash (Will-Call only)</option>
-              <option value="">Check (Will-Call only)</option>
-              <option value="">Card (over $300 see *)</option>
+            <select class="" name="Payment" required>
+              <option value="Choose" selected='' disabled=''>Choose</option>
+              <option value="Cash">Cash (Will-Call only)</option>
+              <option value="Check">Check (Will-Call only)</option>
+              <option value="Card">Card (over $300 see *)</option>
             </select>
             <br>
+            <div class="jsc">
+              <a name="" href='#' onclick='addField()'>Add Item</a><br>
+              <input type="text" name="lineitem" value=""> <input type="number" class='fr'name="lineq" style="width:40px;">
+            </div>
             Please include the quantity, items and any extra comments below <br>
             <textarea id='mb1'name="name" rows="8" placeholder=""cols="50"></textarea>
             <textarea id='mbt' name="name" rows="8" cols="30"></textarea><br>
-            <input type="submit" name="" value="Send">
+            <input type="submit" name="Comments" value="Send">
           </form>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing
             elit, sed do eiusmod tempor incididunt ut labore et dolore
