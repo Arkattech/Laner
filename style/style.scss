@@ -9,6 +9,13 @@ $bshad: 10px 10px 23px -5px rgba(133,125,133,1);
 
 nav {
   height: 60px;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
 }
 
 input, textarea {
@@ -74,6 +81,11 @@ hr {
   height: 300px;
 
   margin-top: 48px;
+}
+
+.navbar-toggler-icon {
+  color: black;
+
 }
 
 .wrap {
@@ -276,7 +288,7 @@ hr {
 }
 
 footer {
-  background-color: #343a40;
+  background-color: white;
   display: block;
   position: relative;
   text-align: center;

@@ -2,7 +2,13 @@
   scroll-behavior: smooth; }
 
 nav {
-  height: 60px; }
+  height: 60px;
+  color: black; }
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder; }
 
 input, textarea {
   margin: 5px;
@@ -54,6 +60,9 @@ hr {
 #map {
   height: 300px;
   margin-top: 48px; }
+
+.navbar-toggler-icon {
+  color: black; }
 
 .wrap {
   justify-content: center; }
@@ -214,7 +223,7 @@ hr {
   width: 350px; }
 
 footer {
-  background-color: #343a40;
+  background-color: white;
   display: block;
   position: relative;
   text-align: center;
