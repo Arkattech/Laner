@@ -2,7 +2,6 @@
 <html lang="en" dir="ltr">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://unpkg.com/@popperjs/core@2">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/422646b9f5.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style/style.css">
@@ -10,7 +9,80 @@
   </head>
   <body>
   <!-- Navbar needs linking-->
-    <nav class="navbar sticky-top navbar-expand-sm navbar-light bg-light">
+  <div class="col-centered" id="covid">
+    Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.
+
+    Most people infected with the COVID-19 virus will experience mild to moderate respiratory illness and recover without requiring special treatment.  Older people, and those with underlying medical problems like cardiovascular disease, diabetes, chronic respiratory disease, and cancer are more likely to develop serious illness.
+
+    The best way to prevent and slow down transmission is be well informed about the COVID-19 virus, the disease it causes and how it spreads. Protect yourself and others from infection by washing your hands or using an alcohol based rub frequently and not touching your face.
+    <a href="#" id='xx'>dismiss</a>
+  </div>
+
+
+
+  <div class="popup">
+    <a href="#" id="x">x</a>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-centered cl">
+          <form class="order" action="https://formspree.io/mvowkdyg" method="post">
+
+            <input type="text" name="name" placeholder="Name">
+            <input type="text" name="" placeholder="Company Name">
+            <input type="text" name="_replyto" placeholder="Email">
+            <input type="text" name="Job/Po" placeholder="Job # / po">
+            <input type="text" name="Phone" placeholder='Phone'>
+            <input type="text" name="Date Required" placeholder='Date Required'><br>
+            <label for="order">Order type</label><br>
+            <select class="" name="Order Type" required>
+              <option value="Choose" selected='' disabled=''>Choose</option>
+              <option value="Will Call">Will Call</option>
+              <option value="Quote">Quote</option>
+              <option value="Delivery">Delivery</option>
+            </select><br>
+            <label for="order">Prefered contact method</label><br>
+            <select class="" name="Contact" required>
+              <option value="Choose" selected='' disabled=''>Choose</option>
+              <option value="Email">Email</option>
+              <option value="Phone">Phone</option>
+            </select><br>
+            <label for="order">Payment method</label><br>
+            <select class="" name="Payment" required>
+              <option value="Choose" selected='' disabled=''>Choose</option>
+              <option value="Cash">Cash (Will-Call only)</option>
+              <option value="Check">Check (Will-Call only)</option>
+              <option value="Card">Card (over $300 see *)</option>
+            </select>
+            <br>
+            <div class="jsc">
+              <a name="" href='#' onclick='addField()'>Add Item</a><br>
+              <input type="text" name="lineitem" value=""> <input type="number" class='fr'name="lineq" style="width:40px;">
+            </div>
+            Please include the quantity, items and any extra comments below <br>
+            <textarea id='mb1'name="name" rows="8" placeholder=""cols="50"></textarea>
+            <textarea id='mbt' name="name" rows="8" cols="30"></textarea><br>
+            <input type="submit" name="Comments" value="Send">
+          </form>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit, sed do eiusmod tempor incididunt ut labore et dolore
+             magna aliqua. Ut enim ad minim veniam, quis nostrud
+             exercitation ullamco laboris nisi ut aliquip ex ea
+             commodo consequat. Duis aute irure dolor in reprehenderit
+              in voluptate velit esse cillum dolore eu fugiat nulla
+              pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est
+              laborum.</p>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+
+
+    <nav class="navbar sticky-top navbar-expand-sm">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"> </span>
       </button>
@@ -69,6 +141,7 @@
       <img id="le" src="imgs/tp.png">
     </div>
     <h2>SERVING QUALITY DRIVEN BULDERS SINCE 1984</h2>
+
     <div class="container">
       <div class="row">
         <div class="col-md-6 col-centered">
@@ -76,14 +149,11 @@
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </div>
         <!--orderform-->
-        <div class="col-md-6 col-centered">
-          <form class="cl" action="order.html" method="">
-            <strong>Place an Order:</strong><br>
-            <input class='btns'type="submit" name="Customer" value="Existing Customer">
-            <input class='btns'type="submit" name="Customer" value="Guest"><br>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-          </form>
-        </div>
+
+
+        <button type='input' id="pop">Place Order</button>
+
+
         <!--Login-->
         <div class="col-md-6 col-centered">
           <form id="log">
@@ -198,8 +268,14 @@
       <button id="but3" class="fas fa-rss"></button>
       </div>
     </footer>
+    <!-- end wrap -->
+
+    <script type="text/javascript" src="scripts/main.js">
+
+    </script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
   </body>
 </html>

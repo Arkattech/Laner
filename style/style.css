@@ -1,6 +1,13 @@
 * {
   scroll-behavior: smooth; }
 
+body, html {
+  margin: 0px;
+}
+  .wrap {
+
+  }
+
 nav {
   height: 60px;
   color: black; }
@@ -16,6 +23,31 @@ input, textarea {
   border-radius: 8px 2px 8px 2px;
   background-color: #D3D3D3;
   padding: 5px; }
+
+  .nav-link {
+    background-color: rgba(0, 0, 0, 0.4);
+    margin: 5px;
+    color: white;
+  }
+
+  .popup {
+    position: absolute;
+    height: 800px;
+    display: none;
+    z-index: 10000;
+    left: 25%;
+    right: 25%;
+    overflow: auto;
+  }
+  #covid {
+    position: absolute;
+    display: none;
+    z-index: 10000;
+    background-color: white;
+    left: 25%;
+    right: 25%;
+    height: 50%;
+  }
 
 .form-control, .form-check-input {
   border: none;
