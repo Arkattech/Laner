@@ -12,6 +12,20 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
 }
 
+.navbar {
+  background-color: white;
+}
+
+#two {
+  height: 20px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 #laner_electric {
   color: yellow;
   font-size: 100px;
@@ -176,6 +190,31 @@ form .btn:hover, form .btn:active {
   color: #777;
 }
 
+.covid {
+  display: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  position: absolute;
+}
+
+.inner-cv {
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 25%;
+  text-align: center;
+  animation: formFade 1s ease-in;
+}
+
+@keyframes formFade {
+  from {
+    opacity:0;
+  }
+  to {
+    opacity:1;
+  }
+}
+
 .scroll3 {
   background-image: url('imgs/set.jpg');
   height: 50%;
@@ -183,6 +222,10 @@ form .btn:hover, form .btn:active {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.jumbotron {
+  text-align: center;
 }
 
 #map {
