@@ -1,5 +1,64 @@
+* {
+  scroll-behavior: smooth;
+}
 body, html {
   height: 100%;
+  font-family: 'Cardo', serif !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Oswald', sans-serif !important;
+  text-transform: uppercase;
+}
+
+#laner_electric {
+  color: yellow;
+  font-size: 100px;
+  animation: 1s ease-out 0s 1 slideLeft
+}
+
+#logo {
+  margin: 40px;
+  animation: 1s ease-in 0s 1 fadeIn
+}
+
+#slogan {
+  animation: 1s ease-out 0s 1 slideRight
+}
+
+a {
+  color: inherit;
+}
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+@keyframes slideLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideRight {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .scroll {
@@ -14,7 +73,7 @@ body, html {
 }
 
 .fas {
-  margin-top: 90%;
+  margin-top: 20px;
   -webkit-animation: pulse 2s ease-in;
   -moz-animation: pulse 2s ease-in;
    animation: pulse 2s ease-in;
@@ -55,7 +114,7 @@ body, html {
   padding: 10px;
   width: 300px;
   height: 300px;
-  background-color: black;
+  background-color: #e5e4e2;
   border-radius: 5px;
 }
 
