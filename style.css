@@ -1,0 +1,113 @@
+body, html {
+  height: 100%;
+}
+
+.scroll {
+  background-image: url('imgs/const.jpg');
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+
+.fas {
+  margin-top: 90%;
+  -webkit-animation: pulse 2s ease-in;
+  -moz-animation: pulse 2s ease-in;
+   animation: pulse 2s ease-in;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0.5;
+ }
+ 25% {
+    opacity: 0.7;
+ }
+ 50% {
+    opacity: 0.8;
+ }
+ 75% {
+    opacity: 1;
+ }
+ 100% {
+    opacity: 0.5;
+ }
+}
+
+.scroll2 {
+  background-image: url('imgs/gg.png');
+  height: 50%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.login {
+  margin: 20px auto;
+  padding: 10px;
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  border-radius: 5px;
+}
+
+#ext {
+  width: 70%;
+  color: #777;
+  font-size: 28px;
+  margin: auto;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+form {
+  text-align: center;
+}
+
+input {
+  padding: 12px 0;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  border: 2px solid transparent;
+  text-align: center;
+  width: 90%;
+  font-size: 16px;
+  transition: border .2s, background-color .2s;
+}
+
+form .field {
+  background-color: #ECF0F1;
+}
+
+form .field:focus {
+  border: 2px solid #3498DB;
+}
+
+form .btn {
+  background-color: #3498DB;
+  color: #fff;
+  line-height: 25px;
+  cursor: pointer;
+}
+
+form .btn:hover, form .btn:active {
+  background-color: #1F78B4;
+  border: 2px solid #1F78B4;
+}
+
+.request {
+  text-align: center;
+}
+
+.request a:link, .request a:visited {
+  font-size: 12px;
+  color: #777;
+}
