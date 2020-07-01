@@ -206,6 +206,10 @@ form .btn:hover, form .btn:active {
   animation: formFade 1s ease-in;
 }
 
+.mob {
+  display: none;
+}
+
 @keyframes formFade {
   from {
     opacity:0;
@@ -238,4 +242,13 @@ form .btn:hover, form .btn:active {
   .scroll, .scroll2, .scroll3 {
     background-attachment: scroll;
   }
+
+  .nmob {
+    display: none;
+  }
+
+  .mob {
+    display: inline-block;
+  }
+
 }

@@ -2,9 +2,8 @@ document.addEventListener('DOMContentLoaded', () => {
   let covid = document.querySelector('.covid');
   covid.style.display = 'inline-block';
 
-  document.querySelector('#x').onclick = () => {
+  document.querySelector('.x').onclick = () => {
     covid.style.display = 'none';
-
   }
 });
 
