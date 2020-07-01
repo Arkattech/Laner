@@ -143,7 +143,7 @@ a:hover {
 }
 
 #about {
-  padding: 40px;
+
 }
 
 form {
@@ -206,9 +206,11 @@ form .btn:hover, form .btn:active {
   animation: formFade 1s ease-in;
 }
 
-.mob {
-  display: none;
-}
+
+
+
+
+
 
 @keyframes formFade {
   from {
@@ -243,12 +245,6 @@ form .btn:hover, form .btn:active {
     background-attachment: scroll;
   }
 
-  .nmob {
-    display: none;
-  }
 
-  .mob {
-    display: inline-block;
-  }
 
 }
