@@ -233,3 +233,9 @@ form .btn:hover, form .btn:active {
   max-width: 400px;
   height: 250px;
 }
+
+@media only screen and (max-device-width: 1366px) {
+  .scroll, .scroll2, .scroll3 {
+    background-attachment: scroll;
+  }
+}
