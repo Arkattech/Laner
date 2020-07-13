@@ -24,8 +24,16 @@ function navScroll() {
   }
 }
 
+document.querySelector('.place').onclick = () => {
+  let order = document.querySelector('.order');
+  order.style.display = 'inline-block';
+  document.querySelector('#x').onclick = () => {
+    order.style.display = 'none';
+  }
+}
+
 function addField(){
-  var container = document.querySelector('.jsc');
+  var container = document.querySelector('.order-inner');
   var input = document.createElement('input');
   input.type = "text";
   input.name = 'lineitem'

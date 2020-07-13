@@ -26,6 +26,10 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
 }
 
+.title {
+
+}
+
 #laner_electric {
   color: yellow;
   font-size: 100px;
@@ -84,11 +88,13 @@ a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
+  background-color: rgba(0, 0, 0, 0.2);
   color: white;
+  padding-top: 180px;
 }
 
 .fas {
-  margin-top: 20px;
+  margin-top: 120px;
   -webkit-animation: pulse 2s ease-in;
   -moz-animation: pulse 2s ease-in;
    animation: pulse 2s ease-in;
@@ -122,6 +128,10 @@ a:hover {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.car {
+  margin: 30px;
 }
 
 .login {
@@ -181,6 +191,19 @@ form .btn:hover, form .btn:active {
   border: 2px solid #1F78B4;
 }
 
+.order {
+  display: none;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: relative;
+  text-align: center;
+}
+
+.order-inner {
+
+}
+
 .request {
   text-align: center;
 }
@@ -204,6 +227,13 @@ form .btn:hover, form .btn:active {
   margin: 25%;
   text-align: center;
   animation: formFade 1s ease-in;
+}
+
+footer {
+  height: 80px;
+  background-color: green;
+  text-align: center;
+  padding-top: 30px;
 }
 
 
