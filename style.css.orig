@@ -27,12 +27,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .title {
-  height: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6));
+
 }
 
 #laner_electric {
-  color: #F5D547;
+  color: yellow;
   font-size: 100px;
   animation: 1s ease-out 0s 1 slideLeft
 }
@@ -131,10 +130,6 @@ a:hover {
   background-size: cover;
 }
 
-.col-md-6 {
-  margin-bottom: 20px;
-}
-
 .car {
   margin: 30px;
 }
@@ -144,21 +139,21 @@ a:hover {
   padding: 10px;
   width: 300px;
   height: auto;
-  background-color: #333138;
+  background-color: #e5e4e2;
   border-radius: 5px;
-}
-
-.bottom {
-  margin-top: 20px;
 }
 
 #ext {
   width: 70%;
-  color: #7E8D85;
+  color: #777;
   font-size: 28px;
   margin: auto;
   margin-bottom: 20px;
   text-align: center;
+}
+
+#about {
+  margin-top: 40px;
 }
 
 form {
@@ -177,7 +172,7 @@ input, textarea {
 }
 
 form .field {
-  background-color: #7E8D85;
+  background-color: #ECF0F1;
 }
 
 form .field:focus {
@@ -185,15 +180,15 @@ form .field:focus {
 }
 
 form .btn {
-  background-color: #FF312E;
+  background-color: #3498DB;
   color: #fff;
   line-height: 25px;
   cursor: pointer;
 }
 
 form .btn:hover, form .btn:active {
-  background-color: #FE4A49;
-  border: 2px solid #FE4A49;
+  background-color: #1F78B4;
+  border: 2px solid #1F78B4;
 }
 
 .order {
@@ -215,19 +210,14 @@ form .btn:hover, form .btn:active {
 
 .request a:link, .request a:visited {
   font-size: 15px;
-  color: #7E8D85;
+  color: #777;
 }
 
 .covid {
   display: none;
   background-color: rgba(0, 0, 0, 0.5);
   height: 100%;
-  z-index: 10000;
   position: absolute;
-}
-
-.covid:after {
-  transition: 2s;
 }
 
 .inner-cv {
@@ -240,18 +230,17 @@ form .btn:hover, form .btn:active {
 }
 
 footer {
-  height: 100px;
-  background-color: #FF312E;
-  color: white;
+  height: 80px;
+  background-color: green;
   text-align: center;
   padding-top: 30px;
 }
 
-#logo1 {
-  max-width: 40px;
-  margin-top: -7px;
-  margin-right: 7px;
-}
+
+
+
+
+
 
 @keyframes formFade {
   from {
@@ -260,15 +249,6 @@ footer {
   to {
     opacity:1;
   }
-}
-
-.fa {
-  margin: auto auto auto 10px;
-}
-
-.fa:hover {
-  transition: 0.5s;
-  color: #7E8D85;
 }
 
 .scroll3 {
@@ -285,7 +265,7 @@ footer {
 }
 
 #map {
-  margin: auto;
+  margin: 20px auto 20px auto;
   max-width: 400px;
   height: 250px;
 }
@@ -295,6 +275,12 @@ footer {
     background-attachment: scroll;
   }
 
+
+<<<<<<< Updated upstream
+
+=======
   .mob {
     display: inline-block;
   }
+>>>>>>> Stashed changes
+}

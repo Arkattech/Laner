@@ -10,6 +10,10 @@ document.addEventListener('DOMContentLoaded', () => {
   document.querySelector('.x').onclick = () => {
     covid.style.display = 'none';
   }
+
+  document.onscroll = () => {
+    covid.style.display = 'none';
+  }
 });
 
 window.onscroll = function() {navScroll()};
