@@ -31,6 +31,10 @@ h1, h2, h3, h4, h5, h6 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6));
 }
 
+.blur {
+  filter: none;
+}
+
 #laner_electric {
   color: #F5D547;
   font-size: 100px;
@@ -198,37 +202,57 @@ form .btn:hover, form .btn:active {
 
 .order {
   display: none;
+  position: absolute;
   height: 100%;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.5);
-  position: relative;
   text-align: center;
+  z-index: 10000;
 }
 
 .order-inner {
+  margin-left: 25%;
+  margin-top: 10%;
+  background-color: white;
+  width: 50%;
+  max-height: 400px;
+  overflow-y: scroll;
+  border-radius: 5px;
+}
 
+.order-inner input {
+  background-color: grey;
 }
 
 .request {
   text-align: center;
 }
 
+.about-us {
+  height: 25%;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.ic {
+ text-align:  center;
+}
+
+.ic i {
+  margin: 20px;
+}
+
+
+
 .Subscribe {
   height: 45%;
   background: radial-gradient(ellipse farthest-corner at 0 140%, #F5D547 0%, #FF312E 70%, #FE4A49 70%);
 }
 
-
-
-.news input {
-  width: auto;
+.sub-inner {
+  margin-top: 10%;
 }
 
-.news {
-
-  float: left;
-  width: 900px ;
-}
 
 .request a:link, .request a:visited {
   font-size: 15px;
@@ -239,8 +263,10 @@ form .btn:hover, form .btn:active {
   display: none;
   background-color: rgba(0, 0, 0, 0.5);
   height: 100%;
+  width: 100%;
   z-index: 10000;
   position: absolute;
+
 }
 
 .covid:after {
@@ -251,7 +277,7 @@ form .btn:hover, form .btn:active {
   background-color: white;
   border-radius: 5px;
   padding: 5px;
-  margin: 25%;
+  margin: 10%;
   text-align: center;
   animation: formFade 1s ease-in;
 }
@@ -269,6 +295,7 @@ footer {
 .end {
   background-color: #7E8D85;
   padding: 0px;
+  height: auto;
 }
 
 .sec1 {
