@@ -244,14 +244,15 @@ form .btn:hover, form .btn:active {
 }
 
 .card-outer{
-  border: 2px solid #7E8D85;
+  border: 2px solid #333138;
   border-radius: 15px 5px 15px 5px;
   max-width: 420px;
   min-height: 300px;
 }
 
 .card-icon{
-  background-color: #7E8D85;
+  background-color: #333138;
+  color: #F5D547;
   border-radius: 10px 2px 0px 0px;
   margin: 0px;
   height: 30%;
