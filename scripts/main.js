@@ -48,7 +48,7 @@ function addField(){
   var container = document.querySelector('.order-inner');
   var input = document.createElement('input');
   input.type = "text";
-  input.name = 'lineitem'
+  input.name = 'Line Item'
   input.setAttribute('class', 'line-item')
   input.placeholder = 'Item'
   input.style = 'max-width: 400px;'

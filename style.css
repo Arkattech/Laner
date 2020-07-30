@@ -243,7 +243,19 @@ form .btn:hover, form .btn:active {
   margin: 20px;
 }
 
+.card-outer{
+  border: 2px solid #7E8D85;
+  border-radius: 15px 5px 15px 5px;
+  max-width: 420px;
+  min-height: 300px;
+}
 
+.card-icon{
+  background-color: #7E8D85;
+  border-radius: 10px 2px 0px 0px;
+  margin: 0px;
+  height: 30%;
+}
 
 .Subscribe {
   height: 45%;
@@ -369,4 +381,8 @@ footer {
 
   .mob {
     display: inline-block;
+  }
+
+  .card-outer {
+    margin-top: 20px;
   }
