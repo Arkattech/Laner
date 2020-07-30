@@ -98,7 +98,7 @@ a:hover {
   padding-top: 180px;
 }
 
-.fas {
+.fic {
   margin-top: 120px;
   -webkit-animation: pulse 2s ease-in;
   -moz-animation: pulse 2s ease-in;
@@ -154,6 +154,7 @@ a:hover {
 
 .bottom {
   margin-top: 20px;
+  display: inline-block;
 }
 
 #ext {
@@ -293,9 +294,21 @@ footer {
 }
 
 .end {
-  background-color: #7E8D85;
+  background-color: #333138;
   padding: 0px;
   height: auto;
+  color: #F5D547;
+}
+
+.contact .field2, textarea {
+  background-color: #333138;
+  border-bottom: 2px solid #F5D547;
+  border-left: 2px solid #F5D547;
+  border-radius: 0px 0px 0px 20px;
+}
+
+.btn2 {
+  border-radius: 0px 0px 0px 20px;
 }
 
 .sec1 {
@@ -321,11 +334,11 @@ footer {
   }
 }
 
-.fa {
+.faic {
   margin: auto auto auto 10px;
 }
 
-.fa:hover {
+.faic:hover {
   transition: 0.5s;
   color: #7E8D85;
 }
