@@ -5,6 +5,7 @@
 body, html {
   height: 100%;
   font-family: 'Cardo', serif !important;
+  
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -159,7 +160,7 @@ a:hover {
 
 #ext {
   width: 70%;
-  color: #fff;
+  color: #F5D547;
   font-size: 28px;
   margin: auto;
   margin-bottom: 20px;
@@ -261,6 +262,7 @@ form .btn:hover, form .btn:active {
 .Subscribe {
   height: 45%;
   background: radial-gradient(ellipse farthest-corner at 0 140%, #F5D547 0%, #FF312E 70%, #FE4A49 70%);
+
 }
 
 .sub-inner {
@@ -310,6 +312,7 @@ footer {
   background-color: #333138;
   padding: 0px;
   height: auto;
+  margin: 0px;
   color: #F5D547;
 }
 
@@ -357,7 +360,7 @@ footer {
 }
 
 .scroll3 {
-  background-image: url('imgs/set.jpg');
+  background-image: url('imgs/laner_electric');
   height: 50%;
   background-attachment: fixed;
   background-position: center;
@@ -369,9 +372,10 @@ footer {
   text-align: center;
 }
 
+
 #map {
-  margin: auto;
-  max-width: 300px;
+  margin: 20px;
+  max-width: 800px;
   height: 350px;
 }
 
