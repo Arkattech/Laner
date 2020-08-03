@@ -383,16 +383,26 @@ footer {
     background-attachment: scroll;
   }
 
+  .scroll {
+    padding-top: 20px;
+  }
+
   .nmob {
     margin-top: 50%;
   }
 
   .title {
     margin-bottom: 20%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6));
+  }
+
+  .Subscribe {
+    height: 75%;
   }
 
 #laner_electric {
-  font-size: 65px;
+  font-size: 70px;
 }
 
   .card-outer {
