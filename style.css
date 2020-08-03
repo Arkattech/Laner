@@ -330,6 +330,10 @@ footer {
   padding-top: 40px;
 }
 
+.mobl {
+  display: none;
+}
+
 #logo0 {
 
 }
@@ -383,12 +387,22 @@ footer {
     background-attachment: scroll;
   }
 
+
+
   .scroll {
     padding-top: 20px;
   }
 
   .nmob {
     margin-top: 50%;
+  }
+
+  .navbar-brand, .navbar-right {
+    display: none;
+  }
+
+  .mobl {
+    display: inline-block;
   }
 
   .title {
