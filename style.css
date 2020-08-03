@@ -5,7 +5,7 @@
 body, html {
   height: 100%;
   font-family: 'Cardo', serif !important;
-  
+
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -312,7 +312,6 @@ footer {
   background-color: #333138;
   padding: 0px;
   height: auto;
-  margin: 0px;
   color: #F5D547;
 }
 
@@ -360,7 +359,7 @@ footer {
 }
 
 .scroll3 {
-  background-image: url('imgs/laner_electric');
+  background-image: url('imgs/set.jpg');
   height: 50%;
   background-attachment: fixed;
   background-position: center;
@@ -384,9 +383,17 @@ footer {
     background-attachment: scroll;
   }
 
-  .mob {
-    display: inline-block;
+  .nmob {
+    margin-top: 50%;
   }
+
+  .title {
+    margin-bottom: 20%;
+  }
+
+#laner_electric {
+  font-size: 65px;
+}
 
   .card-outer {
     margin-top: 20px;
