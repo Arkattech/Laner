@@ -87,6 +87,10 @@ a:hover {
   }
 }
 
+.dropdown-item {
+  cursor: pointer;
+}
+
 .scroll {
   background-image: url('imgs/const.jpg');
   height: 100%;
