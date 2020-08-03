@@ -34,13 +34,17 @@ function navScroll() {
 
 document.querySelector('.place').onclick = () => {
   let order = document.querySelector('.order');
-  let blur = document.querySelector('.blur');
+  let blur = document.querySelectorAll('.blur');
+  var i;
+  for (i = 0; i < blur.length; i++) {
+    blur[i].style.filter = 'blur(2px)'
+  }
   order.style.display = 'inline-block';
-  blur.style.filter = 'blur(2px)';
   document.querySelector('#x').onclick = () => {
     order.style.display = 'none';
-    blur.style.filter = 'none';
-
+    for (i = 0; i < blur.length; i++) {
+      blur[i].style.filter = 'none'
+    }
   }
 }
 
@@ -48,13 +52,13 @@ function addField(){
   var container = document.querySelector('.order-inner');
   var input = document.createElement('input');
   input.type = "text";
-  input.name = 'Line Item'
+  input.name = 'Line-Item'
   input.setAttribute('class', 'line-item')
   input.placeholder = 'Item'
-  input.style = 'max-width: 400px;'
+  input.style = 'max-width: 250px; margin:5px;'
   var num = document.createElement('input');
   num.type="number"
-  num.name = 'lineq'
+  num.name = 'line-q'
   num.style = 'width: 40px;'
   num.setAttribute('class', 'line-item')
   container.append(input);

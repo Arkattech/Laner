@@ -45,7 +45,7 @@
     </div>
     <div id="two">
     </div>
-    <nav id="top" class="navbar navbar-expand-lg navbar-light sticky-top">
+    <nav id="top" class="navbar navbar-expand-lg navbar-light sticky-top blur">
       <a href="#"class="navbar-left"><img src="imgs/Laner.png " id=logo1 alt=""> </a>
       <a class="navbar-brand" href="#"> <h4>Laner Electric Supply</h4></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -102,12 +102,13 @@
         <div class="container">
           <div class="row">
             <div class="col-md-6">
-              <form class="" action="https://formspree.io/mvowkdyg" method="post">
-                <input type="text" name="_replyto" value="" placeholder="Email">
-                <input type="text" name="Company" value="" placeholder="Company">
-                <input type="text" name="Customer Name" value="" placeholder="Name">
+              <form class="order-form-vis" action="https://formspree.io/mvowkdyg" method="post">
+                <input type="text" class="order-field" name="_replyto" value="" placeholder="Email">
+                <input type="text" class="order-field"name="Company" value="" placeholder="Company">
+                <input type="text" class="order-field"name="Customer Name" value="" placeholder="Name">
                 <br>
-                <a href="#pl"onclick="addField()">Add a Field</a>
+                <br>
+                <a href="#pl"onclick="addField()"class="btn1">Add a Field</a>
                 <br>
             </div>
               <div class="col-md-6 ">
@@ -115,7 +116,7 @@
                 <label for="guest">Guest</label>
                 <input type="radio" name="On Account" value="">
                 <label for="guest">On Account</label><br>
-                <button type="submit" name="button">Submit</button>
+                <button type="submit" class="btn1"name="button">Submit</button>
               </form>
               </div>
           </div>
@@ -125,8 +126,8 @@
 
 
 
-    <div class="container sec1">
-      <div class="row">
+    <div class="container sec1 blur">
+      <div class="row blur">
         <div class="col-md-6 col-centered">
           <h3>Established in 1984,</h3>
           Laner Electric Supply Co., Inc. is a wholesale distributor of electrical construction materials, lighting products and tools to electrical and general contractors, property developers and managers, and industrial, institutional, and government entities - operating from a 16,000 sq. ft. sales, administrative, and warehouse facility..
@@ -159,15 +160,8 @@
 
 
 
-
-
-
-
-
-
-
     <!-- Third Page/Section, affils + certs -->
-    <div class="scroll2"></div>
+    <div class="scroll2 blur"></div>
     <div class="about-us"id="about">
       <h1>ABOUT US</h1>
     </div>
