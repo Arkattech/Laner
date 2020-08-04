@@ -108,14 +108,23 @@
                 <input type="text" class="order-field"name="Customer Name" value="" placeholder="Name">
                 <br>
                 <br>
-                <a href="#pl"onclick="addField()"class="btn1">Add a Field</a>
+                <div class="order-add">
+
+                </div>
+                <a href="#pl"onclick="addField()"class="btn1">Add an item</a>
                 <br>
             </div>
               <div class="col-md-6 ">
-                <input type="radio" name="guest" value="">
-                <label for="guest">Guest</label>
-                <input type="radio" name="On Account" value="">
-                <label for="guest">On Account</label><br>
+                <input type="text" class="order-field" name="Purchase order #" value="" placeholder="P/O#">
+                <input type="text" class="order-field" name="Job Name" value="" placeholder="Job Name">
+                <input type="text" class="order-field" name="Account number" value="" placeholder="Account Number" id="customer"disabled>
+                <select name="Customer Type" id="select_field" onchange="customerSelect()" required>
+                  <option value="select a value" disabled selected>Please Select</option>
+                  <option value="Will-Call">Will Call</option>
+                  <option value="Customer_account">Customer Account</option>
+                  <option value="Guest">Guest</option>
+                </select>
+
                 <button type="submit" class="btn1"name="button">Submit</button>
               </form>
               </div>
@@ -290,7 +299,7 @@
           <br>
         </div>
 
-        <div class="col-lg-4 text-center bottom">
+        <div class="col-lg-4 text-center bottom"id=majax>
           <h1>Visit Us</h1>
             <i class="fas fa-store"aria-hidden="true"></i> <h5>Main Office</h5>
           1310 S 51st St Richmond, CA, 94804
@@ -301,6 +310,8 @@
           <i class="fa fa-clock-o" aria-hidden="true"></i>
           <h5>Hours</h5>
            Mon-Fri, 7am-4:30pm
+           <br>
+           <a onclick=loadDoc2()>Map</a>
         </div>
 
 
@@ -316,24 +327,8 @@
             </form>
           </div>
         </div>
-
-
-
-
-
-
-      </div>
-      <div class="row justify-content-center">
-        <div class="col-lg-6 bottom">
-          <div id="map"></div>
-          <script src="scripts/le.js"></script>
-          <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDL-HnlX1k6An84367U8lV8emmtgDqDv0s&callback=initMap">
-          </script>
-        </div>
-
       </div>
     </div>
-
     </div>
 
 

@@ -49,22 +49,36 @@ document.querySelector('.place').onclick = () => {
 }
 
 function addField(){
-  var container = document.querySelector('.order-inner');
+  var container = document.querySelector('.order-add');
   var input = document.createElement('input');
   input.type = "text";
   input.name = 'Line-Item'
-  input.setAttribute('class', 'line-item')
+  input.setAttribute('class', 'order-field')
   input.placeholder = 'Item'
   input.style = 'max-width: 250px; margin:5px;'
   var num = document.createElement('input');
   num.type="number"
   num.name = 'line-q'
   num.style = 'width: 40px;'
-  num.setAttribute('class', 'line-item')
+  num.setAttribute('class', 'order-field')
+  var label = document.createElement('label')
+  label.setAttribute = ('for', 'line-q')
+  label.innerHTML = '#'
+  input.style.marginBottom = "25px"
   container.append(input);
+  container.append(label)
   container.append(num);
   container.append(document.createElement('br'));
 }
+
+function customerSelect() {
+  if(document.getElementById('select_field').value == 'Customer_account'){
+    console.log('customer')
+    document.getElementById('customer').disabled = false;
+    document.getElementById('customer').required = true;
+  }
+}
+
 
 function loadDoc() {
   var xhttp = new XMLHttpRequest();
@@ -75,5 +89,17 @@ function loadDoc() {
     }
   };
   xhttp.open("GET", "corp.txt", true);
+  xhttp.send();
+}
+
+function loadDoc2() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      document.getElementById("majax").innerHTML =
+      this.responseText;
+    }
+  };
+  xhttp.open("GET", "map.txt", true);
   xhttp.send();
 }

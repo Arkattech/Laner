@@ -13,6 +13,26 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
 }
 
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
 .navbar {
   background-color: white;
 }
@@ -48,6 +68,18 @@ h1, h2, h3, h4, h5, h6 {
   animation: 1s ease-in 0s 1 fadeIn
 }
 
+.map {
+  text-align: center;
+}
+
+#map_embed {
+  height: 40vh;
+  width: 300%;
+  margin: 0;
+  padding: 0;
+}
+
+
 #slogan {
   animation: 1s ease-out 0s 1 slideRight
 }
@@ -58,6 +90,11 @@ a {
 a:hover {
   text-decoration: none;
   color: inherit;
+}
+
+.card-par li {
+  list-style-type: none;
+  text-align: center;
 }
 
 @keyframes slideLeft {
@@ -232,8 +269,8 @@ form .btn:hover, form .btn:active {
   background-color: #fff;
 }
 
-.order-form-vis input {
-  border: 2px solid green;
+.order-field {
+  border: 2px solid grey
 }
 
 .request {
@@ -372,6 +409,10 @@ footer {
   color: #7E8D85;
 }
 
+#select_field{
+  margin: 5px;
+}
+
 .scroll3 {
   background-image: url('imgs/set.jpg');
   height: 50%;
@@ -386,17 +427,17 @@ footer {
 }
 
 
-#map {
-  margin: 20px;
-  max-width: 800px;
-  height: 350px;
-}
-
 @media only screen and (max-device-width: 1366px) {
+
   .scroll, .scroll2, .scroll3 {
     background-attachment: scroll;
   }
 
+  #map_embed {
+    margin: 20px;
+    width: 300px;
+    height: 250px;
+  }
 
 
   .scroll {
@@ -432,3 +473,5 @@ footer {
   .card-outer {
     margin-top: 20px;
   }
+
+}
