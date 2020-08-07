@@ -41,10 +41,15 @@ document.querySelector('.place').onclick = () => {
   }
   order.style.display = 'inline-block';
   document.querySelector('#x').onclick = () => {
-    order.style.display = 'none';
+    document.querySelector('.order-inner').style.animationPlayState = "running"
     for (i = 0; i < blur.length; i++) {
       blur[i].style.filter = 'none'
     }
+    setTimeout(()=> {
+      order.style.display = 'none'
+      document.querySelector('.order-inner').style.animationPlayState = "paused"
+    }, 1000)
+
   }
 }
 

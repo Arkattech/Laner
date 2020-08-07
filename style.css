@@ -92,9 +92,13 @@ a:hover {
   color: inherit;
 }
 
+.card-par {
+  margin: 8% 20px 0 20px;
+}
+
 .card-par li {
   list-style-type: none;
-  text-align: center;
+  text-align: left;
 }
 
 @keyframes slideLeft {
@@ -187,12 +191,15 @@ a:hover {
 }
 
 .login {
-  margin: 20px auto;
+  margin: auto;
   padding: 10px;
   width: 300px;
   height: auto;
   background-color: #333138;
   border-radius: 5px;
+  -webkit-box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.46);
+  -moz-box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.46);
+  box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.46);
 }
 
 .bottom {
@@ -249,9 +256,18 @@ form .btn:hover, form .btn:active {
   position: absolute;
   height: 100%;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+
   text-align: center;
   z-index: 10000;
+
+}
+
+.ic3 {
+  margin: 10px;
+}
+
+.map-link {
+  cursor: pointer;
 }
 
 .order-inner {
@@ -263,6 +279,22 @@ form .btn:hover, form .btn:active {
   overflow-y: scroll;
   border-radius: 5px;
   color: white;
+  -webkit-box-shadow: 10px 10px 9px 3px rgba(0,0,0,0.69);
+  -moz-box-shadow: 10px 10px 9px 3px rgba(0,0,0,0.69);
+  box-shadow: 10px 10px 9px 3px rgba(0,0,0,0.69);
+  animation: 1s fade-order;
+  animation-iteration-count: 1;
+  animation-play-state: paused;
+}
+
+@keyframes fade-order {
+  0% {
+    opacity: 1
+  }
+
+  100% {
+    opacity: 0
+  }
 }
 
 .order-inner input {
@@ -292,18 +324,40 @@ form .btn:hover, form .btn:active {
 }
 
 .card-outer{
-  border: 2px solid #333138;
+
   border-radius: 15px 5px 15px 5px;
   max-width: 420px;
   min-height: 300px;
+  -webkit-box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.46);
+  -moz-box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.46);
+  box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.46);
+}
+
+.card-outer:hover {
+  animation: 1s shadow;
+  -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes shadow {
+  0% {
+    -webkit-box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.46);
+    -moz-box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.46);
+    box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.46);
+  }
+
+  100% {
+    -webkit-box-shadow: 10px 10px 19px -5px rgba(0,0,0,0.83);
+    -moz-box-shadow: 10px 10px 19px -5px rgba(0,0,0,0.83);
+    box-shadow: 10px 10px 19px -5px rgba(0,0,0,0.83);
+  }
 }
 
 .card-icon{
-  background-color: #333138;
+  background-color: rgb(51, 49, 56);
   color: #F5D547;
   border-radius: 10px 2px 0px 0px;
   margin: 0px;
-  height: 30%;
+  height: 100%;
 }
 
 .Subscribe {
@@ -312,6 +366,14 @@ form .btn:hover, form .btn:active {
 
 }
 
+.est {
+  padding-right: 80px;
+  text-align: left;
+}
+
+.place {
+  float: left;
+}
 .sub-inner {
   margin-top: 10%;
 }
@@ -472,6 +534,17 @@ footer {
 
   .card-outer {
     margin-top: 20px;
+  }
+
+  .car {
+    margin: 0;
+    max-height: 80px;
+    max-width: auto;
+  }
+
+  .est {
+    padding-right: 0;
+    margin: 20px;
   }
 
 }
