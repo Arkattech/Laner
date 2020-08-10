@@ -186,6 +186,15 @@ a:hover {
   margin-bottom: 20px;
 }
 
+.about-sec {
+  height: 500px;
+  border-radius: 15px 5px 15px 5px;
+  margin-bottom: 40px;
+  -webkit-box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.46);
+  -moz-box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.46);
+  box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.46);
+}
+
 .car {
   margin: 30px;
 }
