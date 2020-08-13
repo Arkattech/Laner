@@ -96,6 +96,9 @@ a:hover {
   margin: 8% 20px 0 20px;
 }
 
+ul {
+  list-style: none;
+}
 .card-par li {
   list-style-type: none;
   text-align: left;
@@ -184,6 +187,23 @@ a:hover {
 
 .col-md-6 {
   margin-bottom: 20px;
+}
+
+.big {
+  background-color: rgb(51, 49, 56);
+  color: #fff
+}
+
+.big h1, .big h3 {
+  color: #F5D547
+}
+
+.big .card-outer {
+  background-color: #fff
+}
+
+.big .card-par {
+  color: black;
 }
 
 .car {
@@ -353,8 +373,7 @@ form .btn:hover, form .btn:active {
 }
 
 .card-icon{
-  background-color: rgb(51, 49, 56);
-  color: #F5D547;
+  color: rgb(51, 49, 56);
   border-radius: 10px 2px 0px 0px;
   margin: 0px;
   height: 100%;
@@ -391,7 +410,8 @@ form .btn:hover, form .btn:active {
   width: 100%;
   z-index: 10000;
   position: absolute;
-
+  padding-left: 18%;
+  padding-right: 18%;
 }
 
 .covid:after {
@@ -399,11 +419,13 @@ form .btn:hover, form .btn:active {
 }
 
 .inner-cv {
+
+  text-align: center;
+
   background-color: white;
   border-radius: 5px;
   padding: 5px;
   margin: 10%;
-  text-align: center;
   animation: formFade 1s ease-in;
 }
 

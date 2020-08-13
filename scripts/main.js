@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
   if (window.innerWidth < 1366){
-    document.querySelector('.inner-cv').innerHTML = '<h4>Due to the current Coronavirus pandemic</h4> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <a href="#" class="x"><h6 style="text-decoration: underline; margin: 5px;">dismiss</h6></a>'
+    document.querySelector('.inner-cv').innerHTML = '<h4>Due to the current Coronavirus pandemic</h4> Masks or face shields are required. Markers have been placed to encourage social distancing. Will Call pickup available. Orders can be placed over the phone, via email and by texting our landline (510) 215-5100 Modified Hours of Operation: Monday thru Friday: 7AM-3PM. <a href="#" class="x"><h6 style="text-decoration: underline; margin: 5px;">dismiss</h6></a>'
   } else {
 
   }
@@ -63,11 +63,11 @@ function addField(){
   input.style = 'max-width: 250px; margin:5px;'
   var num = document.createElement('input');
   num.type="number"
-  num.name = 'line-q'
+  num.name = 'Line Item'
   num.style = 'width: 40px;'
   num.setAttribute('class', 'order-field')
   var label = document.createElement('label')
-  label.setAttribute = ('for', 'line-q')
+  label.setAttribute = ('for', 'Line Item')
   label.innerHTML = '#'
   input.style.marginBottom = "25px"
   container.append(input);
@@ -77,10 +77,13 @@ function addField(){
 }
 
 function customerSelect() {
-  if(document.getElementById('select_field').value == 'Customer_account'){
+  if (document.getElementById('select_field').value == 'Customer_account') {
     console.log('customer')
     document.getElementById('customer').disabled = false;
     document.getElementById('customer').required = true;
+  } else {
+    document.getElementById('customer').disabled = true;
+    document.getElementById('customer').required = false
   }
 }
 
