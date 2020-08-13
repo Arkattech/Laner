@@ -290,7 +290,8 @@ form .btn:hover, form .btn:active {
 }
 
 .ic3 {
-  margin: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .map-link {
@@ -423,6 +424,22 @@ form .btn:hover, form .btn:active {
 
 .covid:after {
   transition: 2s;
+}
+
+.final-card {
+  text-align:center;
+}
+
+.final-card-inner {
+  display: inline-block;
+  max-width: 300px;
+  max-height: 320px;
+  background-color: #fff;
+  color: black;
+  border-radius: 15px 5px 15px 5px;
+  -webkit-box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.46);
+  -moz-box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.46);
+  box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.46);
 }
 
 .inner-cv {
