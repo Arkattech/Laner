@@ -63,6 +63,10 @@ h1, h2, h3, h4, h5, h6 {
   animation: 1s ease-out 0s 1 slideLeft
 }
 
+.close {
+  cursor: pointer;
+}
+
 #logo {
   margin: 40px;
   animation: 1s ease-in 0s 1 fadeIn

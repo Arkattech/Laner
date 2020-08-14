@@ -70,6 +70,11 @@ function addField(){
   label.setAttribute = ('for', 'Line Item')
   label.innerHTML = '#'
   input.style.marginBottom = "25px"
+  var a = document.createElement('a')
+  a.setAttribute = ('class', 'close')
+  a.setAttribute = ('href', '#')
+  a.innerHTML = "x"
+  container.append(a)
   container.append(input);
   container.append(label)
   container.append(num);
