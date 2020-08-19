@@ -55,6 +55,7 @@ document.querySelector('.place').onclick = () => {
 
 function addField(){
   var container = document.querySelector('.order-add');
+  var newDiv = document.createElement('div')
   var input = document.createElement('input');
   input.type = "text";
   input.name = 'Line-Item'
@@ -71,15 +72,24 @@ function addField(){
   label.innerHTML = '#'
   input.style.marginBottom = "25px"
   var a = document.createElement('a')
-  a.setAttribute = ('class', 'close')
-  a.setAttribute = ('href', '#')
+  a.setAttribute('class', 'close')
+//  a.setAttribute('onclick', 'closeField()')
   a.innerHTML = "x"
-  container.append(a)
-  container.append(input);
-  container.append(label)
-  container.append(num);
+  newDiv.append(a)
+  newDiv.append(input);
+  newDiv.append(label)
+  newDiv.append(num);
+  container.append(newDiv)
   container.append(document.createElement('br'));
 }
+
+document.addEventListener('click', event => {
+    const element = event.target;
+    if (element.className === 'close') {
+        element.parentNode.remove()
+    }
+});
+
 
 function customerSelect() {
   if (document.getElementById('select_field').value == 'Customer_account') {
