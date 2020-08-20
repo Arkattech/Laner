@@ -207,7 +207,8 @@ ul {
 }
 
 .big .card-outer {
-  background-color: #fff
+  background: radial-gradient(ellipse farthest-corner at 0 140%, #F5D547 0%, #FF312E 70%, #FE4A49 70%);
+
 }
 
 .big .card-par {
@@ -386,7 +387,7 @@ form .btn:hover, form .btn:active {
 }
 
 .card-icon{
-  color: rgb(51, 49, 56);
+  color: black;
   border-radius: 10px 2px 0px 0px;
   margin: 0px;
   height: 100%;
@@ -439,7 +440,7 @@ form .btn:hover, form .btn:active {
   display: inline-block;
   max-width: 300px;
   max-height: 320px;
-  background-color: #fff;
+  background-color: #F5D547;
   color: black;
   border-radius: 15px 5px 15px 5px;
   -webkit-box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.46);
@@ -460,8 +461,7 @@ form .btn:hover, form .btn:active {
 
 
 footer {
-
-  background-color: #FF312E;
+  background: radial-gradient(ellipse farthest-corner at 0 140%, #F5D547 0%, #FF312E 70%, #FE4A49 70%);
   color: white;
   text-align: center;
   height: 50px;
