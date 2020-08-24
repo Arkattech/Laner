@@ -107,11 +107,11 @@ function loadDoc() {
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
-      document.getElementById("dyn").innerHTML =
+      document.getElementById("majax").innerHTML =
       this.responseText;
     }
   };
-  xhttp.open("GET", "corp.txt", true);
+  xhttp.open("GET", "times.txt", true);
   xhttp.send();
 }
 

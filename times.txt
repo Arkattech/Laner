@@ -1,0 +1,15 @@
+<div class="col-lg-4 bottom" id="majax">
+  <h1>Visit Us</h1>
+    <i class="fas fa-store"aria-hidden="true"></i> <h5>Main Office</h5>
+  1310 S 51st St Richmond, CA, 94804
+  <br>
+  <i class="fa fa-phone"aria-hidden="true"></i>
+  <h5>Main Line</h5>
+  (510) 215-5100 <br>
+  <i class="fa fa-clock-o" aria-hidden="true"></i>
+  <h5>Hours</h5>
+   Mon-Fri, 7am-4:30pm
+   <br>
+   <i class="fa fa-map-marker"></i>
+   <a class="map-link"onclick=loadDoc2()>Map</a>
+</div>
