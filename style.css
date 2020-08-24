@@ -1,10 +1,11 @@
 * {
   scroll-behavior: smooth;
+
 }
 
 body, html {
   height: 100%;
-  font-family: 'Cardo', serif !important;
+  font-family: 'Roboto', serif !important;
 
 }
 
@@ -208,8 +209,9 @@ ul {
 
 .big .card-outer {
   background: radial-gradient(ellipse farthest-corner at 0 140%, #F5D547 0%, #FF312E 70%, #FE4A49 70%);
-
 }
+
+
 
 .big .card-par {
   color: black;
@@ -289,10 +291,39 @@ form .btn:hover, form .btn:active {
   position: absolute;
   height: 100%;
   width: 100%;
-
   text-align: center;
   z-index: 10000;
+}
 
+.news_over {
+  overflow-y: scroll;
+  height: 200px;
+}
+
+.project-section {
+  padding: 20px;
+  text-align: center;
+  background-image: linear-gradient(to bottom, #333138, #FFF)
+}
+
+.project-section h1{
+  color: #F5D547
+}
+
+.project-card {
+  background-color: #fff;
+  text-align: left;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 15px;
+  -webkit-box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.46);
+  -moz-box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.46);
+  box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.46);
+}
+
+.project-card img {
+  height: auto;
+  width: 100%;
 }
 
 .ic3 {
@@ -480,6 +511,13 @@ footer {
   border-bottom: 2px solid #F5D547;
   border-left: 2px solid #F5D547;
   border-radius: 0px 0px 0px 20px;
+  transition: 0.5s ease
+}
+
+.contact .field2:focus, textarea:focus {
+  outline: none;
+  border-bottom: 3px solid #FF312E;
+  border-left: 3px solid #FF312E;
 }
 
 .btn2 {
