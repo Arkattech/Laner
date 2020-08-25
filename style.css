@@ -306,7 +306,7 @@ form .btn:hover, form .btn:active {
   background-image: linear-gradient(to bottom, #333138, #FFF 100%)
 }
 
-.project-section h1{
+.project-section h1, .jumbotron h1{
   color: #F5D547
 }
 
