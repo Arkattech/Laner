@@ -1,3 +1,4 @@
+/* -------------------MAIN CONFIGS------------------ */
 * {
   scroll-behavior: smooth;
 
@@ -14,6 +15,17 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
 }
 
+a {
+  color: inherit;
+}
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
 
 ::-webkit-scrollbar {
   width: 10px;
@@ -34,113 +46,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #555;
 }
 
-.navbar {
-  background-color: white;
-}
-
-#two {
-  height: 20px;
-}
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.title {
-  height: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6));
-}
-
-.blur {
-  filter: none;
-
-}
-
-#laner_electric {
-  color: #F5D547;
-  font-size: 100px;
-  animation: 1s ease-out 0s 1 slideLeft
-}
-
-.close {
-  cursor: pointer;
-  color: red;
-}
-
-#logo {
-  margin: 40px;
-  animation: 1s ease-in 0s 1 fadeIn
-}
-
-.map {
-  text-align: center;
-}
-
-#map_embed {
-  height: 40vh;
-  width: 300%;
-  margin: 0;
-  padding: 0;
-}
-
-
-#slogan {
-  animation: 1s ease-out 0s 1 slideRight
-}
-
-a {
-  color: inherit;
-}
-a:hover {
-  text-decoration: none;
-  color: inherit;
-}
-
-.card-par {
-  margin: 8% 20px 0 20px;
-}
-
-ul {
-  list-style: none;
-}
-.card-par li {
-  list-style-type: none;
-  text-align: left;
-}
-
-@keyframes slideLeft {
-  0% {
-    transform: translateX(-100%);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
-
-@keyframes slideRight {
-  0% {
-    transform: translateX(100%);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-.dropdown-item {
-  cursor: pointer;
-}
-
+/* -------------------FRONT PAGE------------------- */
 .scroll {
   background-image: url('imgs/const.jpg');
   height: 100%;
@@ -154,6 +60,19 @@ ul {
   padding-top: 180px;
 }
 
+.title {
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6));
+}
+
+#two {
+  height: 20px;
+}
+
+.blur {
+  filter: none;
+}
+
 .fic {
   margin-top: 120px;
   -webkit-animation: pulse 2s ease-in;
@@ -164,65 +83,94 @@ ul {
   animation-iteration-count: infinite;
 }
 
-@keyframes pulse {
-  0% {
-    opacity: 0.5;
- }
- 25% {
-    opacity: 0.7;
- }
- 50% {
-    opacity: 0.8;
- }
- 75% {
-    opacity: 1;
- }
- 100% {
-    opacity: 0.5;
- }
+.close {
+  cursor: pointer;
+  color: red;
 }
 
-.scroll2 {
-  background-image: url('imgs/solar.jpg');
-  height: 50%;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+#laner_electric {
+  color: #F5D547;
+  font-size: 100px;
+  animation: 1s ease-out 0s 1 slideLeft
 }
+
+#logo {
+  margin: 40px;
+  animation: 1s ease-in 0s 1 fadeIn
+}
+
+#slogan {
+  animation: 1s ease-out 0s 1 slideRight
+}
+
+    /* main anims */
+
+    @keyframes slideLeft {
+      0% {
+        transform: translateX(-100%);
+      }
+      100% {
+        transform: translateX(0);
+      }
+    }
+
+    @keyframes slideRight {
+      0% {
+        transform: translateX(100%);
+      }
+      100% {
+        transform: translateX(0);
+      }
+    }
+
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+
+    @keyframes pulse {
+      0% {
+        opacity: 0.5;
+     }
+     25% {
+        opacity: 0.7;
+     }
+     50% {
+        opacity: 0.8;
+     }
+     75% {
+        opacity: 1;
+     }
+     100% {
+        opacity: 0.5;
+     }
+    }
+    /* main anims end */
+
+/* ---------------------NAVBAR---------------------- */
+
+.navbar {
+  background-color: white;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.dropdown-item {
+  cursor: pointer;
+}
+
+/* ---------------------INTRO SECTION---------------------- */
 
 .col-md-6 {
   margin-bottom: 20px;
-}
-
-.big {
-  background-color: rgb(51, 49, 56);
-  color: #fff;
-  -webkit-box-shadow: 0px 34px 25px -8px rgba(0,0,0,0.74);
-  -moz-box-shadow: 0px 34px 25px -8px rgba(0,0,0,0.74);
-  box-shadow: 0px 34px 25px -8px rgba(0,0,0,0.74);
-}
-
-.big h1, .big h3 {
-  color: #F5D547
-}
-
-.big .card-outer {
-  background: radial-gradient(ellipse farthest-corner at 0 140%, #F5D547 0%, #FF312E 70%, #FE4A49 70%);
-}
-
-
-
-.big .card-par {
-  color: black;
-}
-
-.xtr {
-  margin: 40px;
-}
-
-.car {
-  margin: 30px;
 }
 
 .login {
@@ -235,20 +183,6 @@ ul {
   -webkit-box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.46);
   -moz-box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.46);
   box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.46);
-}
-
-.bottom {
-  margin-top: 20px;
-  display: inline-block;
-}
-
-#ext {
-  width: 70%;
-  color: #F5D547;
-  font-size: 28px;
-  margin: auto;
-  margin-bottom: 20px;
-  text-align: center;
 }
 
 form {
@@ -295,6 +229,115 @@ form .btn:hover, form .btn:active {
   z-index: 10000;
 }
 
+#ext {
+  width: 70%;
+  color: #F5D547;
+  font-size: 28px;
+  margin: auto;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.request {
+  text-align: center;
+}
+
+.order-inner {
+  margin-left: 25%;
+  margin-top: 10%;
+  background-color: #333138;
+  width: 50%;
+  max-height: 500px;
+  overflow-y: scroll;
+  border-radius: 5px;
+  color: white;
+  -webkit-box-shadow: 10px 10px 9px 3px rgba(0,0,0,0.69);
+  -moz-box-shadow: 10px 10px 9px 3px rgba(0,0,0,0.69);
+  box-shadow: 10px 10px 9px 3px rgba(0,0,0,0.69);
+  animation: 1s fade-order;
+  animation-iteration-count: 1;
+  animation-play-state: paused;
+}
+
+.order-inner input {
+  background-color: #fff;
+}
+
+.order-field {
+  border: 2px solid grey
+}
+
+
+    /* Order anim */
+    @keyframes fade-order {
+      0% {
+        opacity: 1
+      }
+
+      100% {
+        opacity: 0
+      }
+    }
+
+    /* Order anim end */
+
+/* ----------------SECTION 2 ABOUT------------*/
+
+.scroll2 {
+  background-image: url('imgs/solar.jpg');
+  height: 50%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-us {
+  height: 25%;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.big {
+  background-color: rgb(51, 49, 56);
+  color: #fff;
+  -webkit-box-shadow: 0px 34px 25px -8px rgba(0,0,0,0.74);
+  -moz-box-shadow: 0px 34px 25px -8px rgba(0,0,0,0.74);
+  box-shadow: 0px 34px 25px -8px rgba(0,0,0,0.74);
+}
+
+.big h1, .big h3 {
+  color: #F5D547
+}
+
+.big .card-outer {
+  background: radial-gradient(ellipse farthest-corner at 0 140%, #F5D547 0%, #FF312E 70%, #FE4A49 70%);
+}
+
+
+
+.big .card-par {
+  color: black;
+}
+
+
+.card-par {
+  margin: 8% 20px 0 20px;
+}
+
+.card-par li {
+  list-style-type: none;
+  text-align: left;
+}
+
+.xtr {
+  margin: 40px;
+}
+
+.car {
+  margin: 30px;
+}
+
 .news_over {
   overflow-y: scroll;
   height: 200px;
@@ -326,58 +369,21 @@ form .btn:hover, form .btn:active {
   width: 100%;
 }
 
-.ic3 {
-  margin-left: 10px;
-  margin-right: 10px;
+/* continue from */
+#map_embed {
+  height: 40vh;
+  width: 300%;
+  margin: 0;
+  padding: 0;
+}
+
+.bottom {
+  margin-top: 20px;
+  display: inline-block;
 }
 
 .map-link {
   cursor: pointer;
-}
-
-.order-inner {
-  margin-left: 25%;
-  margin-top: 10%;
-  background-color: #333138;
-  width: 50%;
-  max-height: 500px;
-  overflow-y: scroll;
-  border-radius: 5px;
-  color: white;
-  -webkit-box-shadow: 10px 10px 9px 3px rgba(0,0,0,0.69);
-  -moz-box-shadow: 10px 10px 9px 3px rgba(0,0,0,0.69);
-  box-shadow: 10px 10px 9px 3px rgba(0,0,0,0.69);
-  animation: 1s fade-order;
-  animation-iteration-count: 1;
-  animation-play-state: paused;
-}
-
-@keyframes fade-order {
-  0% {
-    opacity: 1
-  }
-
-  100% {
-    opacity: 0
-  }
-}
-
-.order-inner input {
-  background-color: #fff;
-}
-
-.order-field {
-  border: 2px solid grey
-}
-
-.request {
-  text-align: center;
-}
-
-.about-us {
-  height: 25%;
-  text-align: center;
-  padding-top: 5%;
 }
 
 .ic {
@@ -389,7 +395,6 @@ form .btn:hover, form .btn:active {
 }
 
 .card-outer{
-
   border-radius: 15px 5px 15px 5px;
   max-width: 420px;
   min-height: 300px;
@@ -471,22 +476,10 @@ form .btn:hover, form .btn:active {
   filter: drop-shadow(10px 10px 20px #000);
 }
 
-.final-card-inner {
-  padding: 10px;
-  display: inline-block;
-  max-width: 300px;
-  max-height: 330px;
-  color: #F5D547;
-  border-radius: 15px 5px 15px 5px;
-  -webkit-box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.46);
-  -moz-box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.46);
-  box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.46);
-}
+
 
 .inner-cv {
-
   text-align: center;
-
   background-color: white;
   border-radius: 5px;
   padding: 5px;
