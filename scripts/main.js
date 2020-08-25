@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
   if (window.innerWidth < 1366){
-    document.querySelector('.inner-cv').innerHTML = '<h4>Due to the current Coronavirus pandemic</h4> Masks or face shields are required. Markers have been placed to encourage social distancing. Will Call pickup available. Orders can be placed over the phone, via email and by texting our landline (510) 215-5100 Modified Hours of Operation: Monday thru Friday: 7AM-3PM. <a href="#" class="x"><h6 style="text-decoration: underline; margin: 5px;">dismiss</h6></a>'
+    document.querySelector('.inner-cv').innerHTML = '<h4>Due to the current Coronavirus pandemic</h4> Will Call pickup available. <br> Masks or face shields are required. <br> Orders can be placed over the phone, via email and by texting our landline (510) 215-5100 <br> Modified Hours of Operation: Monday thru Friday: 7AM-3PM. <a href="#" class="x"><h6 style="text-decoration: underline; margin: 5px;">dismiss</h6></a>'
   } else {
 
   }

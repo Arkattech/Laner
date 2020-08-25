@@ -303,7 +303,7 @@ form .btn:hover, form .btn:active {
 .project-section {
   padding: 20px;
   text-align: center;
-  background-image: linear-gradient(to bottom, #333138, #FFF)
+  background-image: linear-gradient(to bottom, #333138, #FFF 100%)
 }
 
 .project-section h1{
@@ -475,9 +475,8 @@ form .btn:hover, form .btn:active {
   padding: 10px;
   display: inline-block;
   max-width: 300px;
-  max-height: 320px;
-  background-color: #7E8D85;
-  color: black;
+  max-height: 330px;
+  color: #F5D547;
   border-radius: 15px 5px 15px 5px;
   -webkit-box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.46);
   -moz-box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.46);
