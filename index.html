@@ -83,23 +83,27 @@
 
     <div class="order">
       <div class="order-inner">
-        <h6><a href="#pl"id="x">x</a></h6><h2>Order</h2>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6">
-              <form class="order-form-vis" action="https://formspree.io/mvowkdyg" method="post">
-                <input type="text" class="order-field" name="Email Address" value="" placeholder="Email">
-                <input type="text" class="order-field"name="Company" value="" placeholder="Company">
-                <input type="text" class="order-field"name="Customer Name" value="" placeholder="Name">
-                <br>
-                <br>
-                <div class="order-add">
 
-                </div>
-                <a href="#pl"onclick="addField()"class="btn1">Add an item</a>
-                <br>
+        <h6><a href="#pl"id="x">X close</a></h6>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6 order-img">
+
             </div>
-              <div class="col-md-6 ">
+              <div class="col-md-6 form-input">
+                <h2>Order</h2>
+                <form class="order-form-vis" action="https://formspree.io/mvowkdyg" method="post">
+                  <input type="text" class="order-field" name="Email Address" value="" placeholder="Email">
+                  <input type="text" class="order-field"name="Company" value="" placeholder="Company">
+                  <input type="text" class="order-field"name="Customer Name" value="" placeholder="Name">
+                  <br>
+                  <br>
+                  <div class="order-add">
+
+                  </div>
+                  <a href="#pl"onclick="addField()"class="btn1">Add an item</a>
+                  <br>
+                  <br>
                 <input type="text" class="order-field" name="Purchase order #" value="" placeholder="P/O#">
                 <input type="text" class="order-field" name="Job Name" value="" placeholder="Job Name">
                 <input type="text" class="order-field" name="Account number" value="" placeholder="Account Number" id="customer"disabled>
@@ -275,8 +279,8 @@
             <p><strong>San Francisco, CA</strong> - Cupertino Electric</p>
           </div>
         </div>
-        <div data-aos=""class="row justify-content-center">
-          <div class="col-md-2 project-card">
+        <div class="row justify-content-center">
+          <div data-aos="flip-left"class="col-md-2 project-card">
             <img src="projects/Proj1.jpg" alt="">
             <h4>Nellis Air Force Base</h4>
             <p><strong>Las Vegas, NV</strong> - Nova Group</p>

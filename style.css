@@ -225,11 +225,9 @@ form .btn:hover, form .btn:active {
 }
 
 .order-inner {
-  margin-left: 25%;
-  margin-top: 10%;
-  background-color: #333138;
-  width: 50%;
-  max-height: 500px;
+  display: inline-block;
+  width: 70%;
+  max-height: 600px;
   overflow-y: scroll;
   border-radius: 5px;
   color: white;
@@ -239,6 +237,18 @@ form .btn:hover, form .btn:active {
   animation: 1s fade-order;
   animation-iteration-count: 1;
   animation-play-state: paused;
+}
+
+.order-inner {
+  background-image: url(imgs/gg2.png);
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.form-input {
+    background-color: #333138;
 }
 
 .order-inner input {
@@ -566,6 +576,7 @@ footer {
   float: left;
   margin-left: 10px;
   margin-top: 10px;
+  color: #FF312E;
 }
 
 .jumbotron {
@@ -580,6 +591,10 @@ footer {
     overflow-y: scroll;
     height: 500px;
 
+  }
+
+  .order-img {
+    display: none;
   }
 
   .title .down {
