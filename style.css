@@ -91,37 +91,15 @@ ul {
 #laner_electric {
   color: #F5D547;
   font-size: 100px;
-  animation: 1s ease-out 0s 1 slideLeft
+  filter: drop-shadow(10px 10px 15px #000);
 }
 
-#logo {
+#logo0 {
   margin: 40px;
-  animation: 1s ease-in 0s 1 fadeIn
+  filter: drop-shadow(10px 10px 5px #000);
 }
-
-#slogan {
-  animation: 1s ease-out 0s 1 slideRight
-}
-
     /* main anims */
 
-    @keyframes slideLeft {
-      0% {
-        transform: translateX(-100%);
-      }
-      100% {
-        transform: translateX(0);
-      }
-    }
-
-    @keyframes slideRight {
-      0% {
-        transform: translateX(100%);
-      }
-      100% {
-        transform: translateX(0);
-      }
-    }
 
     @keyframes fadeIn {
       0% {
@@ -315,7 +293,7 @@ form .btn:hover, form .btn:active {
 }
 
 .big .card-outer {
-  background: radial-gradient(ellipse farthest-corner at 0 140%, #F5D547 0%, #FF312E 70%, #FE4A49 70%);
+  background: #FE4A49;
 }
 
 
@@ -340,6 +318,10 @@ form .btn:hover, form .btn:active {
 
 .car {
   margin: 30px;
+}
+
+.article a {
+  color: #F5D547
 }
 
 .news_over {
@@ -434,7 +416,7 @@ form .btn:hover, form .btn:active {
 }
 
 .Subscribe {
-  height: 45%;
+  height: 450px;
   background: radial-gradient(ellipse farthest-corner at 0 140%, #F5D547 0%, #FF312E 70%, #FE4A49 70%);
 
 }
@@ -593,6 +575,17 @@ footer {
 
 @media only screen and (max-device-width: 1366px) {
 
+
+  .project-section {
+    overflow-y: scroll;
+    height: 500px;
+
+  }
+
+  .title .down {
+    display: none;
+  }
+
   .scroll, .scroll2, .scroll3 {
     background-attachment: scroll;
   }
@@ -649,4 +642,7 @@ footer {
     margin: 20px;
   }
 
+  .Subscribe {
+    height: 500px;
+  }
 }
