@@ -97,6 +97,7 @@ ul {
 #logo0 {
   margin: 40px;
   filter: drop-shadow(10px 10px 5px #000);
+  height: 220px;
 }
     /* main anims */
 
@@ -531,9 +532,7 @@ footer {
   display: none;
 }
 
-#logo0 {
 
-}
 
 #logo1 {
   max-width: 60px;
@@ -626,6 +625,10 @@ footer {
 
   .mobl {
     display: inline-block;
+  }
+
+  #logo0 {
+    height: 100px;
   }
 
   .title {
