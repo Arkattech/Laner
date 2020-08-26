@@ -158,9 +158,13 @@ ul {
 }
 
 .sticky {
+  position: -webkit-fixed;
+  position: -moz-fixed;
+  position: -ms-fixed;
   position: fixed;
   top: 0;
   width: 100%;
+  overflow: auto;
 }
 
 .dropdown-item {
