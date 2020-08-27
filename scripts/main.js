@@ -5,8 +5,6 @@ document.addEventListener('DOMContentLoaded', () => {
     card.forEach((item) => {
       item.setAttribute('data-aos', '')
     });
-
-    card.setAttribute('data-aos', '')
   } else {
 
   }
@@ -25,6 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
     blur.style.filter = 'none'
   }
 });
+
 
 window.onscroll = function() {navScroll()};
 var navbar = document.getElementById('top');
