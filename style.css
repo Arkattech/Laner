@@ -23,6 +23,10 @@ a:hover {
   color: inherit;
 }
 
+hr {
+  max-width: 300px;
+}
+
 ul {
   list-style: none;
 }
@@ -143,7 +147,7 @@ ul {
   position: fixed;
   top: 0;
   width: 100%;
-  
+
 }
 
 .dropdown-item {
@@ -310,7 +314,7 @@ form .btn:hover, form .btn:active {
 
 
 .big .card-par {
-  color: black;
+  color: #fff;
 }
 
 
@@ -382,6 +386,8 @@ form .btn:hover, form .btn:active {
 .map-link {
   cursor: pointer;
 }
+
+
 
 .ic {
  text-align:  center;
@@ -571,6 +577,10 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+#majax {
+  width: 100%;
 }
 
 #x {

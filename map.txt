@@ -1,5 +1,5 @@
 <div class="col-lg-4 map"id="majax">
-  <iframe id="map_embed" src="https://maps.google.com/maps?q=laner%20electric%20supply&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+  <iframe width="500" height="300"id="map_embed" src="https://maps.google.com/maps?q=laner%20electric%20supply&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no">
   </iframe>
-  <a onclick="javascript:history.go(-1)">Back</a>
+  <a onclick="loadDoc()">Hide</a>
 </div>
