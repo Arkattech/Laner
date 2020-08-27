@@ -563,11 +563,12 @@ footer {
 
 .faic {
   margin: auto auto auto 10px;
+  color: #F5D547;
 }
 
 .faic:hover {
   transition: 0.5s;
-  color: #F5D547;
+  color: #7E8D85;
 }
 
 #select_field{
