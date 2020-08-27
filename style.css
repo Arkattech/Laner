@@ -245,7 +245,7 @@ form .btn:hover, form .btn:active {
 }
 
 .order-inner {
-  background-image: url(imgs/gg2.png);
+  background-image: url(imgs/map.jpg);
 
   background-position: center;
   background-repeat: no-repeat;
@@ -363,6 +363,8 @@ form .btn:hover, form .btn:active {
   -webkit-box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.46);
   -moz-box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.46);
   box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.46);
+
+
 }
 
 .project-card img {
@@ -404,6 +406,7 @@ form .btn:hover, form .btn:active {
   -webkit-box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.46);
   -moz-box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.46);
   box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.46);
+
 }
 
 .card-outer:hover {
