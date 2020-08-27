@@ -308,13 +308,13 @@ form .btn:hover, form .btn:active {
 }
 
 .big .card-outer {
-  background: grey;
+  background: white;
 }
 
 
 
 .big .card-par {
-  color: #fff;
+  color: #000;
 }
 
 
@@ -567,7 +567,7 @@ footer {
 
 .faic:hover {
   transition: 0.5s;
-  color: #7E8D85;
+  color: #F5D547;
 }
 
 #select_field{
