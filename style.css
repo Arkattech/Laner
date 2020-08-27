@@ -364,7 +364,6 @@ form .btn:hover, form .btn:active {
   -moz-box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.46);
   box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.46);
 
-
 }
 
 .project-card img {
@@ -388,6 +387,8 @@ form .btn:hover, form .btn:active {
 .map-link {
   cursor: pointer;
 }
+
+
 
 
 
