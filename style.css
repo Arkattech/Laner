@@ -610,7 +610,10 @@ footer {
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
+  }
 
+  .project-card {
+    display: inline-block;
   }
 
   .order-img {
