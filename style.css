@@ -608,7 +608,6 @@ footer {
   .project-section {
     display: inline-block;
     overflow: auto;
-    height: 500px;
     white-space: nowrap;
 
   }
