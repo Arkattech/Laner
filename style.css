@@ -430,12 +430,11 @@ form .btn:hover, form .btn:active {
 }
 
 /* #F5D547 */
-.card-icon{
-  color: #333138;
+.card-icon {
   border-radius: 10px 2px 0px 0px;
   margin: 0px;
   height: 100%;
-  filter: drop-shadow(5px 5px 20px #000);
+  filter: drop-shadow(2px 5px 10px grey);
 }
 
 .Subscribe {
