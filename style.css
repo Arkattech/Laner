@@ -606,8 +606,10 @@ footer {
 
 
   .project-section {
-    overflow-y: scroll;
+    display: inline-block;
+    overflow: auto;
     height: 500px;
+    white-space: nowrap;
 
   }
 
