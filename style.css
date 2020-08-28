@@ -607,7 +607,8 @@ footer {
 
   .project-section {
     display: inline-block;
-    overflow: auto;
+    overflow-x: scroll;
+    overflow-y: hidden;
     white-space: nowrap;
 
   }
