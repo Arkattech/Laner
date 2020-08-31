@@ -604,10 +604,8 @@ footer {
 
 @media only screen and (max-device-width: 1366px) {
 
-
-  .project-section {
-    overflow-y: scroll;
-    height: 500px;
+  .project-card {
+    min-width: 250px;
   }
 
   .order-img {
@@ -659,9 +657,9 @@ footer {
     height: 75%;
   }
 
-#laner_electric {
-  font-size: 70px;
-}
+  #laner_electric {
+    font-size: 70px;
+  }
 
   .card-outer {
     margin-top: 20px;

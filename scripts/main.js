@@ -5,6 +5,12 @@ document.addEventListener('DOMContentLoaded', () => {
     card.forEach((item) => {
       item.setAttribute('data-aos', '')
     });
+    let project = document.querySelectorAll('.project-card');
+    project.forEach((projectCard) => {
+      projectCard.setAttribute('class', 'project-card')
+    });
+    let row = document.querySelector('.project-card').parentElement
+    row.setAttribute('class', 'row flex-row flex-nowrap overflow-auto')
   } else {
 
   }
