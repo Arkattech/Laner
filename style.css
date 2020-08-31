@@ -344,6 +344,11 @@ form .btn:hover, form .btn:active {
   height: 200px;
 }
 
+#resp {
+  overflow-y: scroll;
+  height: 200px;
+}
+
 .project-section {
   padding: 20px;
   text-align: center;
