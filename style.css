@@ -246,7 +246,6 @@ form .btn:hover, form .btn:active {
 
 .order-inner {
   background-image: url(imgs/map.jpg);
-
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -341,12 +340,11 @@ form .btn:hover, form .btn:active {
 
 .news_over {
   overflow-y: scroll;
-  height: 200px;
+  height: 350px;
 }
 
 #resp {
-  overflow-y: scroll;
-  height: 200px;
+
 }
 
 .project-section {
@@ -439,7 +437,7 @@ form .btn:hover, form .btn:active {
   border-radius: 10px 2px 0px 0px;
   margin: 0px;
   height: 100%;
-  filter: drop-shadow(2px 5px 10px grey);
+  filter: drop-shadow(2px 5px 20px lightgrey);
 }
 
 .Subscribe {
@@ -589,17 +587,18 @@ footer {
 }
 
 #majax {
+  align-self: center;
   width: 100%;
 }
 
-#x {
+#majax a{
+  cursor: pointer;
+}
 
+#x {
   z-index: 10001;
   color: #FF312E;
-  position: sticky;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+  float: left;
 }
 
 .jumbotron {
@@ -614,7 +613,7 @@ footer {
   }
 
   .order-img {
-    display: none;
+    
   }
 
   .title .down {
@@ -658,9 +657,7 @@ footer {
     background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6));
   }
 
-  .Subscribe {
-    height: 75%;
-  }
+
 
   #laner_electric {
     font-size: 70px;
@@ -682,6 +679,6 @@ footer {
   }
 
   .Subscribe {
-    height: 500px;
+    height: 420px;
   }
 }
