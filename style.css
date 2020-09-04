@@ -598,7 +598,6 @@ footer {
 #x {
   z-index: 10001;
   color: #FF312E;
-  float: left;
 }
 
 .jumbotron {
@@ -613,7 +612,7 @@ footer {
   }
 
   .order-img {
-    
+
   }
 
   .title .down {
