@@ -156,7 +156,7 @@ ul {
 
 /* ---------------------INTRO SECTION---------------------- */
 
-.col-md-6 {
+.col-lg-6 {
   margin-bottom: 20px;
 }
 
@@ -587,8 +587,13 @@ footer {
 }
 
 #majax {
-  align-self: center;
-  width: 100%;
+  overflow: hidden;
+  margin-left: auto;   /* Automatic margin from left */
+  margin-right: auto;
+}
+
+#majax iframe {
+
 }
 
 #majax a{

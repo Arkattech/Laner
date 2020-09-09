@@ -80,7 +80,7 @@ function addField(){
   num.setAttribute('class', 'order-field')
   var label = document.createElement('label')
   label.setAttribute = ('for', 'Line Item')
-  label.innerHTML = '#'
+  label.innerHTML = 'Qty:'
   input.style.marginBottom = "25px"
   var a = document.createElement('a')
   a.setAttribute('class', 'close')
@@ -134,6 +134,15 @@ function loadDoc2() {
       this.responseText;
     }
   };
+  document.querySelector("#majax").scrollIntoView(true)
   xhttp.open("GET", "map.txt", true);
   xhttp.send();
+}
+
+function about() {
+
+ document.querySelector("#about").scrollIntoView({ behavior: 'smooth', block: 'start' })
+ setTimeout(() => {
+  window.scrollBy(0,-40)
+}, 500);
 }
