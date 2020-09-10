@@ -1,8 +1,8 @@
 /* -------------------MAIN CONFIGS------------------ */
 * {
   scroll-behavior: smooth;
-
 }
+
 
 body, html {
   height: 100%;
@@ -381,13 +381,14 @@ form .btn:hover, form .btn:active {
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  text-align: center;
+  width: 100%;
+
 }
 
 .project-card img {
   height: auto;
   width: 100%;
-  margin-top: 20px;
+
 }
 
 .over {
@@ -424,10 +425,6 @@ form .btn:hover, form .btn:active {
 .map-link {
   cursor: pointer;
 }
-
-
-
-
 
 .ic {
  text-align:  center;
@@ -616,7 +613,7 @@ footer {
   color: #7E8D85;
 }
 
-#select_field{
+#select_field {
   margin: 5px;
 }
 
@@ -633,6 +630,8 @@ footer {
   overflow: hidden;
   margin-left: auto;   /* Automatic margin from left */
   margin-right: auto;
+  -webkit-margin-before: auto;
+  -webkit-margin-after: auto;
 }
 
 #majax iframe {
@@ -671,12 +670,6 @@ footer {
     background-attachment: scroll;
   }
 
-  #map_embed {
-    margin: 20px;
-    width: 300px;
-    height: 250px;
-  }
-
 
   .scroll {
     padding-top: 20px;
@@ -695,7 +688,7 @@ footer {
   }
 
   #logo0 {
-    height: 100px;
+    height: 150px;
   }
 
   .title {
@@ -703,7 +696,6 @@ footer {
     height: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6));
   }
-
 
 
   #laner_electric {
@@ -715,8 +707,8 @@ footer {
   }
 
   .car {
-    margin: 0;
-    max-height: 80px;
+    margin: 2px;
+    max-height: 60px;
     max-width: auto;
   }
 
