@@ -356,7 +356,7 @@ form .btn:hover, form .btn:active {
 .project-section {
   padding: 20px;
   text-align: center;
-  background-image: linear-gradient(to bottom, #333138, #FFF 100%)
+  background-image: linear-gradient(to bottom, #333138 20%, #fff 100%)
 }
 
 .project-section h1, .jumbotron h1{
