@@ -365,12 +365,13 @@ form .btn:hover, form .btn:active {
 
 .project-card {
   background-color: #fff;
-  margin: 20px;
+  margin: 35px;
   padding: 10px;
   border-radius: 15px;
   -webkit-box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.46);
   -moz-box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.46);
   box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.46);
+
 }
 
 .project-card p {
@@ -386,6 +387,7 @@ form .btn:hover, form .btn:active {
 .project-card img {
   height: auto;
   width: 100%;
+  margin-top: 20px;
 }
 
 .over {
