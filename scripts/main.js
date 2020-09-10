@@ -134,13 +134,22 @@ function loadDoc2() {
       this.responseText;
     }
   };
+  let map = document.querySelector(".map-link")
+  map.textContent = "Hide";
+  
+  map.onclick = () => {
+    loadDoc()
+    map.textContent = "Map"
+    map.setAttribute('onclick', 'loadDoc2()')
+  }
   document.querySelector("#majax").scrollIntoView(true)
   xhttp.open("GET", "map.txt", true);
   xhttp.send();
 }
 
-function about() {
 
+
+function about() {
  document.querySelector("#about").scrollIntoView({ behavior: 'smooth', block: 'start' })
  setTimeout(() => {
   window.scrollBy(0,-100)
