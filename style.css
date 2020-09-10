@@ -289,9 +289,9 @@ form .btn:hover, form .btn:active {
 }
 
 .about-us {
-  height: 25%;
+  height:100px;
   text-align: center;
-  padding-top: 5%;
+  padding-top: 20px;
 }
 
 .big {
@@ -319,11 +319,12 @@ form .btn:hover, form .btn:active {
 
 .card-par {
   margin: 8% 20px 0 20px;
+  text-align: left;
 }
 
 .card-par li {
   list-style-type: none;
-  text-align: left;
+
 }
 
 .xtr {
@@ -343,7 +344,12 @@ form .btn:hover, form .btn:active {
   height: 350px;
 }
 
-#resp {
+#resp img {
+  float: right;
+  margin: 2px;
+  width: 100%;
+  max-width: 200px;
+  height: auto;
 
 }
 
@@ -359,19 +365,45 @@ form .btn:hover, form .btn:active {
 
 .project-card {
   background-color: #fff;
-  text-align: left;
   margin: 20px;
   padding: 10px;
   border-radius: 15px;
   -webkit-box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.46);
   -moz-box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.46);
   box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.46);
+}
 
+.project-card p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .project-card img {
   height: auto;
   width: 100%;
+}
+
+.over {
+  position: absolute;
+  border-radius: 15px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #fff;
+}
+
+.over:hover {
+  opacity: 1;
 }
 
 /* continue from */
@@ -493,9 +525,18 @@ form .btn:hover, form .btn:active {
   text-align: center;
   background-color: white;
   border-radius: 5px;
-  padding: 5px;
   margin: 10%;
+  padding: 5px;
   animation: formFade 1s ease-in;
+}
+
+.inner-cv .covp {
+  max-width: 600px;
+  margin: auto auto;
+  font-size: 16px;
+  line-height: 26px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 

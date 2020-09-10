@@ -143,6 +143,6 @@ function about() {
 
  document.querySelector("#about").scrollIntoView({ behavior: 'smooth', block: 'start' })
  setTimeout(() => {
-  window.scrollBy(0,-40)
+  window.scrollBy(0,-100)
 }, 500);
 }
