@@ -518,7 +518,13 @@ form .btn:hover, form .btn:active {
   filter: drop-shadow(10px 10px 20px #000);
 }
 
+.covp i {
+  float: left;
+}
 
+.covp p {
+  text-align: left;
+}
 
 .inner-cv {
   text-align: center;
@@ -526,6 +532,7 @@ form .btn:hover, form .btn:active {
   border-radius: 5px;
   margin: 10%;
   padding: 5px;
+  background: radial-gradient(ellipse farthest-corner at 0 140%, #F5D547 0%, #fff 70%, #fff 70%);
   animation: formFade 1s ease-in;
 }
 
