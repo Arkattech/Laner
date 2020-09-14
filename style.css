@@ -436,7 +436,7 @@ form .btn:hover, form .btn:active {
 /* continue from */
 #map_embed {
   height: 40vh;
-  width: 300%;
+  width: 100%;
   margin: 0;
   padding: 0;
 }
