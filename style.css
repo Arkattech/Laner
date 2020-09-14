@@ -518,22 +518,31 @@ form .btn:hover, form .btn:active {
   filter: drop-shadow(10px 10px 20px #000);
 }
 
-.covp i {
-  float: left;
+.cont {
+  position: relative;
 }
 
-.covp p {
-  text-align: left;
+.cont p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.cont img {
+  width: 100%;
 }
 
 .inner-cv {
   text-align: center;
+  background-image: url(imgs/cov2.png);
+  background-size: cover;
   background-color: white;
   border-radius: 5px;
   margin: 10%;
   padding: 5px;
-  background: radial-gradient(ellipse farthest-corner at 0 140%, #F5D547 0%, #fff 70%, #fff 70%);
   animation: formFade 1s ease-in;
+
 }
 
 .inner-cv .covp {
