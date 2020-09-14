@@ -369,6 +369,7 @@ form .btn:hover, form .btn:active {
 .san-img img {
   margin-top: 50%;
   width: 100%;
+  max-width: 400px;
   height: auto;
 }
 
@@ -764,5 +765,13 @@ footer {
 
   .xtr-col {
     width: 100%;
+  }
+  .san-img img {
+    margin-top: auto;
+  }
+
+  .xtr-cont {
+    margin: 20px;
+    width: auto;
   }
 }
