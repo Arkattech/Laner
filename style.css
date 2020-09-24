@@ -778,4 +778,7 @@ footer {
   #slogan {
     margin: 20px;
   }
+  .over {
+    display: none;
+  }
 }
