@@ -142,7 +142,9 @@ function loadDoc2() {
     map.textContent = "Map"
     map.setAttribute('onclick', 'loadDoc2()')
   }
-  document.querySelector("#majax").scrollIntoView(true)
+  setTimeout(() => {
+   window.scrollTo(0,document.body.scrollHeight)
+ }, 500);;
   xhttp.open("GET", "map.txt", true);
   xhttp.send();
 }
