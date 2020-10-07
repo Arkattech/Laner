@@ -412,7 +412,6 @@ form .btn:hover, form .btn:active {
 .project-card img {
   height: auto;
   width: 100%;
-  
 }
 
 .overlay_fade {
@@ -783,7 +782,7 @@ footer {
     margin: 20px;
   }
 
-  .over {
+  .overlay_fade {
     display: none;
   }
 
