@@ -386,12 +386,16 @@ form .btn:hover, form .btn:active {
 }
 
 .project-section h1, .jumbotron h1{
-  color: #F5D547
+  color: #F5D547;
+
 }
 
+.project-card h4 {
+  margin-bottom: 10px;
+}
 .project-card {
   position: relative;
-  min-height: 250px;
+  min-height: 200px;
   width: 200px;
   background-color: #fff;
   margin: 35px;
