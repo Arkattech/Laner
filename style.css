@@ -329,6 +329,8 @@ form .btn:hover, form .btn:active {
 
 .xtr {
   margin: 40px;
+
+
 }
 
 .xtr-cont {
@@ -388,6 +390,9 @@ form .btn:hover, form .btn:active {
 }
 
 .project-card {
+  position: relative;
+  min-height: 250px;
+  width: 200px;
   background-color: #fff;
   margin: 35px;
   padding: 10px;
@@ -410,8 +415,13 @@ form .btn:hover, form .btn:active {
 }
 
 .project-card img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
   height: auto;
   width: 100%;
+  border-radius: 0 0 15px 15px;
+
 }
 
 .overlay_fade {
