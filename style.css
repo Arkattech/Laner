@@ -412,10 +412,10 @@ form .btn:hover, form .btn:active {
 .project-card img {
   height: auto;
   width: 100%;
-
+  
 }
 
-.over {
+.overlay_fade {
   position: absolute;
   border-radius: 15px;
   top: 0;
@@ -429,7 +429,7 @@ form .btn:hover, form .btn:active {
   background-color: #fff;
 }
 
-.over:hover, .over:active {
+.overlay_fade:hover, .overlay_fade:active {
   opacity: 1;
 }
 
