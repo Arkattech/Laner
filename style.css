@@ -474,7 +474,7 @@ form .btn:hover, form .btn:active {
 .card-outer{
   border-radius: 15px 5px 15px 5px;
   max-width: 420px;
-  min-height: 300px;
+  min-height: 280px;
   -webkit-box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.46);
   -moz-box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.46);
   box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.46);
