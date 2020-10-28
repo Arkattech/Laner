@@ -64,6 +64,14 @@ ul {
   padding-top: 180px;
 }
 
+.covid-not {
+  text-align: left;
+}
+
+.covid-not li {
+  list-style-type: circle;
+}
+
 .title {
   height: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6));
@@ -324,7 +332,6 @@ form .btn:hover, form .btn:active {
 
 .card-par li {
   list-style-type: none;
-
 }
 
 .xtr {
@@ -474,8 +481,8 @@ form .btn:hover, form .btn:active {
 
 .card-outer{
   border-radius: 15px 5px 15px 5px;
-  max-width: 420px;
-  min-height: 280px;
+  max-width: 80%;
+  min-height: 100px;
   -webkit-box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.46);
   -moz-box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.46);
   box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.46);
@@ -521,8 +528,9 @@ form .btn:hover, form .btn:active {
 }
 
 .place {
-  float: left;
+  float: none;
 }
+
 .sub-inner {
   margin-top: 10%;
 }

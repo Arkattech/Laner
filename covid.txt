@@ -1,4 +1,5 @@
 <h4>Due to the ongoing Coronavirus pandemic,</h4>
+<div class="covid-not">
 <em>Laner Electric Supply has implemented the following restrictions in accordance with state guidelines.</em>
 <ul>
 <li>Masks or face shields are required.</li>
@@ -11,3 +12,4 @@ available with appointment only.</li>
 <li>Monday thru Friday: 7AM-3PM</li>
 </ul>
 We thank you for your cooperation and understanding during these uncertain times.
+</div>
