@@ -527,6 +527,12 @@ form .btn:hover, form .btn:active {
   text-align: left;
 }
 
+.est img {
+  height: 100%;
+  width: auto;
+  max-height: 200px;
+}
+
 .place {
   float: none;
 }
