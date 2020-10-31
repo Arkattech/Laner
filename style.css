@@ -865,5 +865,14 @@ footer {
 @media only screen and (max-device-width: 600px) {
   .new-card-col {
     width: 100%;
+    height: auto;
+  }
+
+  .new-card {
+    width: 90%;
+  }
+
+  .new-card-col p {
+    margin: 10px;
   }
 }
