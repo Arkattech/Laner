@@ -334,10 +334,55 @@ form .btn:hover, form .btn:active {
   list-style-type: none;
 }
 
+.new-card {
+  width: 50%;
+  border-radius: 5px 15px 5px 15px;
+  background-color: white;
+  color: black;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 10px 10px 24px 2px rgba(0,0,0,0.68);
+  -moz-box-shadow: 10px 10px 24px 2px rgba(0,0,0,0.68);
+  box-shadow: 10px 10px 24px 2px rgba(0,0,0,0.68);
+}
+
+.new-card-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.new-card-row {
+  text-align: left;
+}
+
+.new-card-col {
+  float: left;
+  padding: 20px;
+  height: 300px;
+}
+
+.new-card-col img {
+  height: auto;
+  width: 100%;
+  border-radius: 5px 15px 5px 15px
+}
+
+.new-card-col p {
+  margin-top: 25%;
+}
+
+.new-left {
+  width: 50%;
+}
+
+.new-right {
+  width: 50%;
+}
+
 .xtr {
   margin: 40px;
-
-
 }
 
 .xtr-cont {
@@ -815,4 +860,10 @@ footer {
     display: none;
   }
 
+}
+
+@media only screen and (max-device-width: 600px) {
+  .new-card-col {
+    width: 100%;
+  }
 }
