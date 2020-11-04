@@ -365,6 +365,7 @@ form .btn:hover, form .btn:active {
 
 .new-card-col img {
   height: auto;
+  max-height: 260px;
   width: 100%;
   border-radius: 5px 15px 5px 15px
 }
