@@ -335,7 +335,7 @@ form .btn:hover, form .btn:active {
 }
 
 .new-card {
-  width: 50%;
+  width: 90%;
   border-radius: 5px 15px 5px 15px;
   background-color: white;
   color: black;
@@ -371,7 +371,7 @@ form .btn:hover, form .btn:active {
 }
 
 .new-card-col p {
-  margin-top: 25%;
+  margin-top: 20%;
 }
 
 .new-left {
